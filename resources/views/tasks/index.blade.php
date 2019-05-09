@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <h1>買い物リスト一覧</h1>
+    <h1 class="text-white mb-4"><i class="fas fa-list-alt mr-2"></i>買い物リスト一覧</h1>
 
     @if (count($tasks) > 0)
-        <table class="table table-striped">
-            <thead>
+        <table class="table table-sm bg-white">
+            <thead class="thead-light">
                 <tr>
                     <th>id</th>
-                    <th>品名</th>
+                    <th>品物</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,6 +23,6 @@
         </table>
     @endif
 
-    {!! link_to_route('tasks.create', '新規品名の登録', null, ['class' => 'btn btn-primary']) !!}
+    <p class="text-center mb-0">{!! link_to_route('tasks.create', '新規品物の登録', null, ['class' => 'btn btn-primary', 'style' => 'width:10em;']) !!}</p>
 
 @endsection

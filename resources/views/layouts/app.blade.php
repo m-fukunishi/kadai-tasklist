@@ -11,7 +11,9 @@
         @include('commons.navbar')
         
         <div class="container">
-            @yield('content')
+            <div class="shadow p-4 mb-5 bg-success rounded">
+                @yield('content')
+            </div>
         </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
