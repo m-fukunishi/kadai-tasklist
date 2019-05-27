@@ -14,9 +14,9 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ Auth::user()->name }}さん</a>
                         <ul class="dropdown-menu dropdown-menu-right">
-                            <li class="dropdown-item"><a href="tasks/create" class="nav-link"><i class="far fa-plus-square mr-2"></i>新規品物の登録</a></li>
+                            <li class="dropdown-item"><a href="tasks/create"><i class="far fa-plus-square mr-2"></i>新規品物の登録</a></li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item">{!! link_to_route('logout.get', 'ログアウト') !!}</li>
+                            <li class="dropdown-item"><a href="logout"><i class="fas fa-sign-out-alt mr-2"></i>ログアウト</a></li>
                         </ul>
                     </li>
                 @else

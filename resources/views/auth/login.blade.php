@@ -22,7 +22,7 @@
                 {!! Form::submit('ログイン', ['class' => 'btn btn-primary btn-block']) !!}
             {!! Form::close() !!}
 
-            <p class="mt-2">{!! link_to_route('signup.get', '新規ユーザー登録') !!}</p>
+            <p class="text-center mb-0"><a href="/signup" class="mt-3" style="display:inline-block;padding:0;color:#fff;"><i class="fas fa-user-plus mr-2"></i>新規ユーザー登録</a></p>
         </div>
     </div>
 @endsection
