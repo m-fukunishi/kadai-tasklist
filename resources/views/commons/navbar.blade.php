@@ -16,7 +16,7 @@
                         <ul class="dropdown-menu dropdown-menu-right">
                             <li class="dropdown-item"><a href="tasks/create"><i class="far fa-plus-square mr-2"></i>新規品物の登録</a></li>
                             <li class="dropdown-divider"></li>
-                            <li class="dropdown-item"><a href="logout"><i class="fas fa-sign-out-alt mr-2"></i>ログアウト</a></li>
+                            <li class="dropdown-item"><a href="/logout"><i class="fas fa-sign-out-alt mr-2"></i>ログアウト</a></li>
                         </ul>
                     </li>
                 @else
